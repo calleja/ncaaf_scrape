@@ -1,0 +1,3 @@
+fix the scraper to handle stat categories with very few teams,ex. Blocked Punts and Defensive TDs
+
+Create a system by where only distinct records are added to the collection... may need to verify each data point to determine if the document is distinct from any already stored in the db collection. May not need to query on each field; team, update timestamp, games played ("G")
